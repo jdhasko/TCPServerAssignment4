@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "M4wt2qweLkXzWbRIlR8szBSwosxYV2PxOc3g/VW34+1Bz5c4yraqPlqXHwy1TKiHg5xvG1vnXHq/e9D2bki2fQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dominik Haskó\\source\\repos\\TCPServerAssignment4\\TCPServer\\TCPServer\\TCPServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dominik Haskó\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

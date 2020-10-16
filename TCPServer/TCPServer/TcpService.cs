@@ -47,7 +47,8 @@ namespace TCPServer
                         response = GetBooks();
                         break;
                     case "SAVE":
-                       response = SaveBook(JsonConvert.DeserializeObject<Book>(requestContent));
+                        SaveBook(JsonConvert.DeserializeObject<Book>(requestContent));
+                        response = "Successfully saved.";
                         break;
                     default:
                         response = "Unknown command.";
@@ -76,10 +77,9 @@ namespace TCPServer
             return JsonConvert.SerializeObject(books);
         }
 
-        private string SaveBook(Book newBook)
+        private void SaveBook(Book newBook)
         {
             books.Add(newBook);
-            return "Book successfully saved";
         }
     }
 }
